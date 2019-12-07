@@ -1,0 +1,112 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 300;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Header Area Start */
+.header-top-area {
+  background-color: #218ae6;
+  padding: 10px 0;
+}
+.header-top-area, .header-top-area a {
+  color: #fff;
+}
+.header-top-area .text-right i.fas {
+  padding-left: 20px;
+}
+.header-bottom-area h3 {
+  font-weight: 700;
+  margin: 24px 0;
+}
+.header-bottom-area h3 a {
+  color: #333;
+}
+.header-bottom-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-bottom-area ul li {
+  display: inline-block;
+}
+.header-bottom-area ul li a {
+  display: block;
+  color: #333;
+  padding: 25px;
+  text-transform: uppercase;
+  padding-right: 0;
+  padding-left: 50px;
+}
+.header-bottom-area ul li a:hover {
+  color: #218ae6;
+}
+.header-top-area p{
+	padding: 0;
+	margin: 0;
+}
+/* Header Area Stop */
+/* Slider Area Start */
+.homepage-sliders {
+  background-color: #218ae6;
+  color: #fff;
+  font-size: 17px;
+}
+.homepage-sliders h2 {
+  font-size: 50px;
+  font-weight: 100;
+}
+.slide-btn {
+  background: #f9cf25;
+  color: #333;
+  padding: 12px 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.single-homepage-slide .text-right img {
+	width: 100%;
+	height: 400px;
+}
+.single-homepage-slide {
+  padding: 150px 0;
+}
+.homepage-sliders .owl-dots button {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin:5px;
+}
+.homepage-sliders .owl-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.homepage-sliders .owl-dots button.active{
+  background: #f9cf25;
+}
+/* Slider Area Stop */
